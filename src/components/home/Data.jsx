@@ -10,8 +10,8 @@ const Data = () => {
                     <path d="M21.3307 14C21.877 15.6354 21.0574 17.4263 19.5 18" />
                 </svg>
             </h1>
-            <h3 className="home__substitle">Web Developer</h3>
-            <p className="home__discription">
+            <h3 className="home__subtitle">Web Developer</h3>
+            <p className="home__description">
                 I am a passionate Web Developer skilled in HTML, CSS, JavaScript, React, and WordPress. I specialize in building responsive websites with clean UI/UX, optimized performance, and mobile-friendly layouts.
             </p>
 
