@@ -1,6 +1,15 @@
 import React from 'react'
+import "./services.css"
+import { useState } from 'react'
 
 const Services = () => {
+
+    const [toggle, setToggle] = useState(0);
+
+    const toggleTab = (idx) => {
+        setToggle(idx)
+    }
+
     return (
         <section className="services section" id="services">
             <h2 className="section__title">Services</h2>
@@ -10,17 +19,21 @@ const Services = () => {
             <div className="services__container container grid">
                 <div className="services__content">
                     <div>
-                        <i className="uil uil services__icon"></i>
-                        <h3 className='services__title'></h3>
+                        <i className="uis uis-web-grid services__icon"></i>
+                        <h3 className='services__title'>
+                            Frontend <br /> Web Developer
+                        </h3>
                     </div>
 
-                    <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    <span className="services__button"
+                    onClick={() => toggleTab(1)}
+                    >View More <i className="uil uil-arrow-right services__button-icon"></i></span>
 
-                    <div className="services__modal">
+                    <div className={toggle === 1 ? "services__modal-active services__modal" : "services__modal" }>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close"></i>
+                            <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title"></h3>
+                            <h3 className="services__modal-title"> Frontend Web Developer</h3>
                             <p className="services__modal-description">
                                 I build modern, fast, and fully responsive websites that work smoothly on all devices.                    </p>
 
@@ -47,6 +60,9 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
         </section>
     )
