@@ -35,7 +35,7 @@ const Education = () => {
                     <div className={toggle === 1 ? "services__modal-active services__modal" : "services__modal"}>
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-
+                            
                             <h3 className="services__modal-title"> My Education Journey</h3>
                             <p className="services__modal-description">
                                 My learning path and achievements
