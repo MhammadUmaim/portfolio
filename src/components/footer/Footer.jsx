@@ -37,7 +37,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a href="https://github.com/MhammadUmaim"
+                    <a href="https://github.com/MuhammadUmaim"
                         className="footer__social-link"
                         target='_blank'>
                         <i className='uil uil-github-alt'></i>

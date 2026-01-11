@@ -20,7 +20,7 @@ const Social = () => {
             </svg>
         </a>
 
-        <a href="https://github.com/MhammadUmaim" 
+        <a href="https://github.com/MuhammadUmaim" 
         className="home__social-icon" 
         target='_blank'>
             <i className='uil uil-github-alt'></i>
