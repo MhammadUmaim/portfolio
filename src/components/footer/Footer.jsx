@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
 
                 <span className='footer__copy'>
-                    &#169; MuhammadUmaim. All rights reserved
+                    &#169; 2026 MuhammadUmaim. | All rights reserved - made with ♥
                 </span>
             </div>
         </footer>

@@ -1,27 +1,29 @@
 import Weather from "../../assets/weather.jpg"
-import Spotify from "../../assets/spotify.jpg"
+import AJIC from "../../assets/ajic.png"
 import Notes from "../../assets/notes.jpg"
-import Foods from "../../assets/food.jpg"
-import Quiz from "../../assets/quiz.jpg"
+import UH from "../../assets/umaim-hasnain.png"
+import Academy from "../../assets/academy.png"
 import Ecommerce from "../../assets/e-commerce.jpg"
 import Gallery from "../../assets/gallery.jpg"
 import Dice from "../../assets/dice.jpg"
+import Gym from "../../assets/gym.png"
+import Buisiness from "../../assets/buisiness.png"
 
 
 export const projectsData = [
     {
         id: 1,
-        image: Spotify,
-        title: 'Spotify Clone',
+        image: AJIC,
+        title: 'AJIC e-commerce web',
         category: 'dynamic',
-        link: 'https://spotify-clone-nu-kohl.vercel.app'
+        link: 'https://aj-international.vercel.app'
     },
     {
         id: 2,
-        image: Foods,
-        title: 'Recipei web',
-        category: 'static',
-        link: 'https://cooking-time-with-zainab-final.vercel.app'
+        image: UH,
+        title: 'Me-My friend merged portfolio',
+        category: 'dynamic',
+        link: 'https://umaim-hasnain.vercel.app'
     },
     {
         id: 3,
@@ -40,10 +42,10 @@ export const projectsData = [
     },
     {
         id: 5,
-        image: Quiz,
-        title: 'Quiz app',
+        image: Gym,
+        title: 'Gym Web',
         category: 'static',
-        link: 'https://html-quiz-gilt.vercel.app/'
+        link: 'https://gymweb-hazel.vercel.app/'
     },
     {
         id: 6,
@@ -66,6 +68,20 @@ export const projectsData = [
         category: 'dynamic',
         link: 'https://dice-game-smoky-six.vercel.app'
     },
+     {
+        id: 9,
+        image: Buisiness,
+        title: 'buisiness Solutions',
+        category: 'static',
+        link: 'https://smart-buisness-solutions.vercel.app/'
+    },
+     {
+        id: 10,
+        image: Academy,
+        title: 'Learning Academy',
+        category: 'static',
+        link: 'https://learning-academy-rho.vercel.app/'
+    }
 ]
 
 
